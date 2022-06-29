@@ -64,17 +64,21 @@ section {
     padding: 20px;
   }
   #portfoliopic {
-    width: 100%;
-  padding: 26px;
-  height: 200px;
+    width: 55%;
+  padding: 2px;
+  height: 400px;
   border: 1px solid black;
 }
 #me {
-    width: 100%;
-  padding: 26px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 15%;
+  padding: 1px;
   height: 200px;
   border: 1px solid black;
 }
-}
 
-  }
+
+  
