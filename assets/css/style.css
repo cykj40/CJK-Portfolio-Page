@@ -1,3 +1,80 @@
-h1 {
+* {
+    background-color: beige;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family: Impact;
+
+}
+
+header #c:hover::after {
+    content: 'yrus';
+    color: aqua
+}
+
+#c {
+    color: aqua;
+}
+
+header #j:hover::after {
+    content: 'alili';
+    color: mediumspringgreen;
+}
+header h2 {
+    color: grey;
+    border: 1px 1px 1px 1px;
+    border-color: aqua;
     
 }
+
+#j {
+    color: mediumspringgreen;
+}
+
+header #k:hover::after {
+    content: 'hiabani';
+    color: pink;
+}
+
+#k {
+    color: pink;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+aside {
+
+    flex: 30%;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+section {
+    flex: 70%;
+    padding: 20px;
+  }
+  #portfoliopic {
+    width: 100%;
+  padding: 26px;
+  height: 200px;
+  border: 1px solid black;
+}
+#me {
+    width: 100%;
+  padding: 26px;
+  height: 200px;
+  border: 1px solid black;
+}
+}
+
+  }
