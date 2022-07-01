@@ -1,3 +1,10 @@
+:root {
+    --lb: aqua;
+    --b: black;
+    --sg: mediumspringgreen;
+    --db: #1329ed;
+}
+
 * {
     background-color: beige;
     box-sizing: border-box;
@@ -14,26 +21,27 @@ header {
 
 header #c:hover::after {
     content: 'yrus';
-    color: aqua
+    color: var(--lb)
 }
 
 #c {
-    color: aqua;
+    color: var(--lb);
 }
 
 header #j:hover::after {
     content: 'alili';
-    color: mediumspringgreen;
+    color: var(--sg);
 }
+
 header h2 {
     color: grey;
     border: 1px 1px 1px 1px;
-    border-color: aqua;
-    
+    border-color: var(--lb);
+
 }
 
 #j {
-    color: mediumspringgreen;
+    color: var(--sg);
 }
 
 header #k:hover::after {
@@ -51,27 +59,32 @@ nav {
     margin-bottom: 15px;
 
 }
+
 button {
     width: 250px;
-    margin:0 .5%;
+    margin: 0 .5%;
     font-size: 200%;
-    color: #1329ed;
+    color: var(--db);
     background-color: lightblue;
     border: 3px solid #132;
     border-radius: 5px;
 }
+
 button:hover {
-    background-color:grey;
-    color:black;
+    background-color: grey;
+    color: black;
 }
+
 button:active {
     font-size: 100%;
     box-shadow: #000 inset;
 }
+
 button:focus {
     outline: none;
     border-color: grey;
 }
+
 aside {
 
     flex: 30%;
@@ -79,41 +92,64 @@ aside {
     flex-wrap: wrap;
 
 }
+
 section {
     flex: 70%;
     padding: 20px;
-  }
-  #portfoliopic {
-    width: 55%;
-  padding: 2px;
-  height: 400px;
-  border: 1px solid black;
 }
+
+#aboutme1 {
+    margin-top: 2px;
+}
+
+#me2 {
+    margin-top: 20px;
+}
+
+#portfoliopic {
+    width: 75%;
+    padding: 2px;
+    height: 600px;
+    border: 1px solid var(--b);
+}
+
+#portfolio {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+
+#here {
+    text-decoration: underline;
+    color: var(--db);
+}
+
 #me {
     float: left;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
     width: 15%;
-  padding: 1px;
-  height: 200px;
-  border: 1px solid black;
+    padding: 1px;
+    height: 200px;
+    border: 1px solid var(--b);
 }
+
 footer {
     padding: 50px;
     text-align: center;
     font-weight: 600;
     font-size: x-large;
     font-family: Impact;
-    
-}
-footer p {
-    content:"Thank you /2763 for visiting please come back soon!";
-    color:black;
-    z-index: 5;
-}
-footer p span {
-    color:red;
+
 }
 
-  
+footer p {
+    content: "Thank you /2763 for visiting please come back soon!";
+    color: var(--b);
+    z-index: 5;
+}
+
+footer p span {
+    color: red;
+}
