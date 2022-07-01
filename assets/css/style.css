@@ -51,7 +51,27 @@ nav {
     margin-bottom: 15px;
 
 }
-
+button {
+    width: 250px;
+    margin:0 .5%;
+    font-size: 200%;
+    color: #1329ed;
+    background-color: lightblue;
+    border: 3px solid #132;
+    border-radius: 5px;
+}
+button:hover {
+    background-color:grey;
+    color:black;
+}
+button:active {
+    font-size: 100%;
+    box-shadow: #000 inset;
+}
+button:focus {
+    outline: none;
+    border-color: grey;
+}
 aside {
 
     flex: 30%;
@@ -79,6 +99,21 @@ section {
   height: 200px;
   border: 1px solid black;
 }
-
+footer {
+    padding: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+    font-family: Impact;
+    
+}
+footer p {
+    content:"Thank you /2763 for visiting please come back soon!";
+    color:black;
+    z-index: 5;
+}
+footer p span {
+    color:red;
+}
 
   
