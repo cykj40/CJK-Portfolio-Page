@@ -10,7 +10,14 @@
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
 header {
+    display: flex;
     padding: 50px;
     text-align: center;
     font-weight: 600;
@@ -54,6 +61,7 @@ header #k:hover::after {
 }
 
 nav {
+    flex: 1 0 200px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
