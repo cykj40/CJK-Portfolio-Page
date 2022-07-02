@@ -7,4 +7,5 @@ portfolio page
 * In the portfolio section I added a link to check out my first assignment. I changed the color and underlined "here".
 * I used HTML for the contact me section that is why the section looks a little rough. I think once we learn Javascript I will know how to make a better form taht accepts information.
 * In the footer I used unnix to add the heart in my footer message I really like the way that looks.
-(![project 2 preview](https://user-images.githubusercontent.com/102045473/177007726-8e1418e2-237e-4d17-9cb9-74f815914945.png)
+![project 2 preview](https://user-images.githubusercontent.com/102045473/177007834-24923f01-09e1-43fa-8eb5-d273d98e8687.png)
+
