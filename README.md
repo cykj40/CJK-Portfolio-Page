@@ -7,6 +7,7 @@ portfolio page
 * In the portfolio section I added a link to check out my first assignment. I changed the color and underlined "here".
 * I used HTML for the contact me section that is why the section looks a little rough. I think once we learn Javascript I will know how to make a better form taht accepts information.
 * In the footer I used unnix to add the heart in my footer message I really like the way that looks.
-
+![project 2 preview finished for sure](https://user-images.githubusercontent.com/102045473/177009116-74d7b11a-7eb1-481d-8c90-09b6b9a96eb8.png)
+Click [Here] (file:///C:/Users/Michael%20Khiabani/Documents/GitHub/CJK-Portfolio-Page/CJK-Portfolio-Page.html) to check out my portfolio!
 
 
