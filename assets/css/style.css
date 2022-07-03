@@ -115,9 +115,10 @@ section {
 }
 
 #portfoliopic {
-    width: 75%;
+    margin-top: 30px;
+    width: 25%;
     padding: 2px;
-    height: 600px;
+    height: 300px;
     border: 1px solid var(--b);
 }
 
